@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+
+	::-moz-selection {
+		background-color: #ff0;}
+	
+	::selection {
+		background-color: #ff0;}
+
+	a:link {
+		color: #00f;
+	}
+
+	button {
+		background-color: #fff;
+		cursor: pointer;
+		border-radius: 0;
+	}
+
+		button:focus {
+			outline: none;
+		}
+
+	a:hover {
+		border-bottom-width: 0.05em;
+		border-bottom-style: dashed;
+		border-bottom-color: #00f;
+	}
+
+	a.no-underline:hover {
+		border: none;
+	}
+
+	.display-none {
+		display: none;
+	}
+
+	.display-initial {
+		display: initial;
+	}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+header,main {
+	width: 98%;
+	padding: 1%;
+}
+
+div.interface-box {
+	float: right;
+}
+
+	div.interface-box button {
+		font-size: 3em;
+		width: 1.5em;
+		height: 1.5em;
+		margin-left: 0.5em;
+		line-height: 1.5em;
+		border: 0.05em solid #000;
+	}
+
+		.font-line-adjust {
+			padding-top: 0.2em;
+		}
+
+	.page-buttons {
+		box-shadow: 0.15em 0.15em 0 #000;
+	}
+
+		.page-buttons:hover {
+			background-color: #000;
+			transform: translate(0.075em,0.075em);
+			box-shadow: 0.075em 0.075em 0 #000;
+			color: #fff;
+		}
+
+		.page-buttons:active {
+			background-color: #000;
+			transform: translate(0.15em,0.15em);
+			box-shadow: none;
+			color: #fff;
+		}
+
+		.page-buttons-active {
+			background-color: #000;
+			transform: translate(0.15em,0.15em);
+			box-shadow: none;
+			color: #fff;
+		}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+}
+
+h1, nav, nav ul, nav ul li, nav ul li a {
+	display: inline;
+}
+
+h1:after {
+	content: ": ";
+}
+
+nav ul li:after {
+	content: ", ";
+}
+
+nav ul li:nth-last-child(2):after,nav ul li:last-child:after {
+	content: none;
+}
+
+h1, nav ul li {
+	font-size: 6em;
+}
+
+span.emoji-mode + sup {
+	font-size: 0.8em;
+	vertical-align: middle;
+}
+
+nav svg {
+	width: 0.8em;
+}
+
+figure#profile-picture {
+	width: 98%;
+	padding: 1%;
+	height: 98vh;
+	background-image: url(../img/about/erin-besler-2015-the-entire-situation.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+	figure#profile-picture figcaption {
+		font-size: 0;
+	}
+
+section#information h3 {
+	font-size: 6em;
+	margin: 0.2em 0;
+}
+
+div.columns {
+	column-count: 3;
+	margin-bottom: 1em;
+}
+
+	main p {
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+
+footer {
+	text-align: center;
+	margin: auto;
+	width: 98%;
+	padding: 1% 0;
+}
+
+aside {
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	top: -10%;
+	transition: top 0.5s;
+}
+
+	.slide-down {
+		top: 0%;
+	}
+
+	aside ol {
+		width: 100%;
+		height: 100%;
+	}
+
+	aside ol li {
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+	aside ol li button {
+		font-size: 0;
+		width: 100%;
+		height: 100%;
+		outline: 5px solid rgba(126,126,126,0.2);
+		outline-offset: -5px;
+		border: none;
+	}
+
+		aside#font-menu ol li button {
+			font-size: 1em;
+		}
+
+		aside ol li button:hover {
+			outline: 5px solid rgba(126,126,126,0.5);
+			outline-offset: -5px;
+		}
+
+		.interface-button-active {
+			outline: 10px solid rgba(126,126,126,0.8);
+			outline-offset: -10px;
+		}
+
+.off-screen {
+	position: fixed;
+	left: -100vw;
+	top: 100vh;
+}
+
+.font-size-zero {
+	font-size: 0;
+}
+
+.font-size-zero-nine-em {
+	font-size: 0.9em;
+}
+
+.font-weight-normal {
+	font-weight: normal;
+}

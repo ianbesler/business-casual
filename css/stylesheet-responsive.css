@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px) {
+	
+header,main {
+	width: 94%;
+	padding: 3%;
+}
+
+h1, nav ul li {
+	font-size: 3em;
+}
+
+	div.interface-box button {
+			font-size:9.8vw;
+			margin-left: 1.8vw;
+			margin-bottom: 1em;
+		}
+
+figure#profile-picture {
+	background-attachment: scroll;
+}
+
+section#information h3 {
+	font-size: 13.2vw;
+	padding-top: 0.2em;
+	padding-bottom: 2vw;
+	margin: 0.2em 0;
+}
+
+div.columns {
+	column-count: 1;
+	margin-bottom: 1em;
+}
+
+footer {
+	width: 92%;
+	padding: 4% 4%;
+}
+
+aside {
+	height: 20%;
+	top: -20%;
+}
+
+aside ol li {
+		width: 20%;
+		height: 50%;
+	}
+
+}

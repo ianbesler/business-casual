@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.none,#none,#font-none {			background-color: none;}
+.black,#black,#font-black {			background-color: #000;}
+.gray,#gray,#font-gray {			background-color: #aaa;}
+.white,#white,#font-white {			background-color: #fff;}
+.red,#red,#font-red {				background-color: #f00;}
+.orange,#orange,#font-orange {		background-color: #ffa500;}
+.yellow,#yellow,#font-yellow {		background-color: #ff0;}
+.green,#green,#font-green {			background-color: #0f0;}
+.cyan,#cyan,#font-cyan {			background-color: #0ff;}
+.blue,#blue,#font-blue {			background-color: #00f;}
+.purple,#purple,#font-purple {		background-color: #800080;}
+.magenta,#magenta,#font-magenta {	background-color: #f0f;}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= CSS FONT COLOR CLASSES -=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.font-none,#font-none {			color: none;}
+.font-black,#font-black {		color: #000;}
+.font-gray,#font-gray {			color: #aaa;}
+.font-white,#font-white {		color: #fff;}
+.font-red,#font-red {			color: #f00;}
+.font-orange,#font-orange {		color: #ffa500;}
+.font-yellow,#font-yellow {		color: #ff0;}
+.font-green,#font-green {		color: #0f0;}
+.font-cyan,#font-cyan {			color: #0ff;}
+.font-blue,#font-blue {			color: #00f;}
+.font-purple,#font-purple {		color: #800080;}
+.font-magenta,#font-magenta {	color: #f0f;}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= CSS ANCHOR UNDERLINE COLOR CLASSES -=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+a.font-none:hover {		border-color: none;}
+a.font-black:hover {	border-color: #000;}
+a.font-gray:hover {		border-color: #aaa;}
+a.font-white:hover {	border-color: #fff;}
+a.font-red:hover {		border-color: #f00;}
+a.font-orange:hover {	border-color: #ffa500;}
+a.font-yellow:hover {	border-color: #ff0;}
+a.font-green:hover {	border-color: #0f0;}
+a.font-cyan:hover {		border-color: #0ff;}
+a.font-blue:hover {		border-color: #00f;}
+a.font-purple:hover {	border-color: #800080;}
+a.font-magenta:hover {	border-color: #f0f;}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-= CSS FILL COLOR CLASSES -=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.fill-none {	fill: none;}
+.fill-black {	fill: #000;}
+.fill-gray {	fill: #aaa;}
+.fill-white {	fill: #fff;}
+.fill-red {		fill: #f00;}
+.fill-orange {	fill: #ffa500;}
+.fill-yellow {	fill: #ff0;}
+.fill-green {	fill: #0f0;}
+.fill-cyan {	fill: #0ff;}
+.fill-blue {	fill: #00f;}
+.fill-purple {	fill: #800080;}
+.fill-magenta {	fill: #f0f;}

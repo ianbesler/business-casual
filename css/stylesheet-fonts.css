@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•___•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.|||.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•._____.•.•.•.•.•.•.•.•.•.•|||•.•.•.•.•.•.•._____.•.•.•.•.•.•.•.•.•
+•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•|||||•.•.•.•.•.•.•.•.•.•_|||_•.•.•.•.•.•.•|||||•.________•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.|||||.•.•.•.•.•.•.•.•.•.|||||.•.•.•.•.•.•.|||||._||||||||.•.•.•.•
+•.•.•.•.•.•.___.•.•.•.•.•.•.•.•|||||•.•.____•.•.___.•._|||||_.•.•.•.•.•.||||||•|____||||•.•.•.•.
+.•.•.•.•.•.•|||•.•.•.•.•.•.•.•.|||||____||||.•.•|||•.•|||||||•.•__.•.•.•||||||.|||||_|||.•.•.•.•
+•.•.•.•.•.•.|||.•.•___•.•.•.•.•|||||||||||||•.•.|||.•.|||||||.•_||___.•.||||||•|||||_|||•.•.•.•.
+.•.•.•.•.•.•|||.___|||.•_______|||||||||||||.•.•|||_.•|||||||•._|||||•.•||||||.|||||_|||.•.•.•.•
+•.•.•.___••.|||•|||_||•_|||||||___||||||||||•.•_||_|•.|||||||.•_|||||.•.||||||•|||||_|||•.•.•.•.
+.•.•._|||_.•|||.|||_||.|||||||||||_|||||||||.•.||_||.•|||||||•._|||||•.•||||||.|||||_|||.•.•.•.•
+•.•.•|||||•.|||•|||_||•|||||||||||_|||||||||•.•||_||•.|||||||.•||||||.•.||||||•|||||_|||•.•.•.•.
+.•.•.|||||.•|||.|||_||.|||||||||||_|||||||||.•.||_||.•|||||||•.||||||•.•||||||.|||||_|||.•.•.•.•
+•.•.•|||||•.|||•|||_||•|||||||||||_|||||||||•.•||_||•.|||||||.•||||||.•.||||||•|||||_|||•.•.•.•.
+.•.•.|||||.•|||.|||_||.|||||||||||_|||||||||.•.||_||.•|||||||•.||||||•.•||||||.|||||_|||.•.•.•.•
+•.•.•|||||•.|||•|||_||•|||||||||||_|||||||||•.•||_||•.|||||||.•||||||.•.||||||•|||||_|||•.•.•.•.
+.•.•.DESIGNED AND BUILT ENTIRELY BY HAND IN BEAUTIFUL DOWNTOWN LOS ANGELES, JUST FOR YOU.•.•.•.•
+•.•.•.BY IAN BESLER.•.•.•.HTTP://WWW.IANBESLER.COM/.•.•.•.HTTP://WWW.BESLERANDSONS.COM/.•.•.•.•.
+.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•.•*/
+.arial,#arial{font-family:Arial,sans-serif;}
+.baskerville,#baskerville{font-family:Baskerville,"Baskerville Old Face",serif;}
+.bodoni,#bodoni{font-family:"Bodoni MT",serif;}
+.book-antiqua,#book-antiqua{font-family:"Book Antiqua",serif;}
+.brush-script,#brush-script{font-family:"Brush Script MT",cursive;}
+.century-gothic,#century-gothic{font-family:"Century Gothic",CenturyGothic,AppleGothic,sans-serif;}
+.comic-sans-ms,#comic-sans-ms{font-family:"Comic Sans MS",cursive;}
+.consolas,#consolas{font-family:Consolas,monospace;}
+.copperplate,#copperplate{font-family:Copperplate,"Copperplate Gothic Light",fantasy;}
+.courier-new,#courier-new{font-family:"Courier New",Courier,monospace;}
+.didot,#didot{font-family:Didot,"Didot LT STD",serif;}
+.futura,#futura{font-family:"Futura",sans-serif;}
+.garamond,#garamond{font-family:Garamond,serif;}
+.georgia,#georgia{font-family:Georgia,serif;}
+.gill-sans,#gill-sans{font-family:"Gill Sans","Gill Sans MT",sans-serif;}
+.impact,#impact{font-family:Impact,sans-serif;}
+.lucida-bright,#lucida-bright{font-family:"Lucida Bright",serif;}
+.lucida-sans-typewriter,#lucida-sans-typewriter{font-family:"Lucida Sans Typewriter","Lucida Console",monospace;}
+.palatino,#palatino{font-family:Palatino,"Palatino Linotype","Palatino LT STD",serif;}
+.papyrus,#papyrus{font-family:Papyrus,fantasy;}
+.rockwell,#rockwell{font-family:Rockwell,serif;}
+.tahoma,#tahoma{font-family:Tahoma,sans-serif;}
+.times-new-roman,#times-new-roman{font-family:TimesNewRoman,"Times New Roman",Times,serif;}
+.trebuchet-ms,#trebuchet-ms{font-family:"Trebuchet MS",sans-serif;}
+.verdana,#verdana{font-family:Verdana,sans-serif;}
