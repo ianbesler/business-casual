@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@keyframes float-down {
+	0%		{opacity: 0; top: -5em;}
+	20%		{transform: rotateX(90deg);}
+	60%		{top: 0.5em;}
+	100%	{opacity: 1; top: 0em; transform: rotateX(0deg);}
+}
+
+@-moz-keyframes float-down {
+	0%		{opacity: 0; top: -5em;}
+	20%		{transform: rotateX(90deg);}
+	60%		{top: 0.5em;}
+	100%	{opacity: 1; top: 0em; transform: rotateX(0deg);}
+}
+
+@-o-keyframes float-down {
+	0%		{opacity: 0; top: -5em;}
+	20%		{transform: rotateX(90deg);}
+	60%		{top: 0.5em;}
+	100%	{opacity: 1; top: 0em; transform: rotateX(0deg);}
+}
+
+@-webkit-keyframes float-down {
+	0%		{opacity: 0; top: -5em;}
+	20%		{transform: rotateX(90deg);}
+	60%		{top: 0.5em;}
+	100%	{opacity: 1; top: 0em; transform: rotateX(0deg);}
+}
+.interface-box button {
+	position: relative;
+	animation-name: float-down;
+		-moz-animation-name: float-down;
+		-o-animation-name: float-down;
+		-webkit-animation-name: float-down;
+	animation-duration: 0.5s;
+		-moz-animation-duration: 0.5s;
+		-o-animation-duration: 0.5s;
+		-webkit-animation-duration: 0.5s;
+	animation-fill-mode: backwards;
+		-moz-animation-fill-mode: backwards;
+		-o-animation-fill-mode: backwards;
+		-webkit-animation-fill-mode: backwards;
+}
+.float-down-no-delay {
+	position: relative;
+	animation-name: float-down;
+		-moz-animation-name: float-down;
+		-o-animation-name: float-down;
+		-webkit-animation-name: float-down;
+	animation-duration: 0.5s;
+		-moz-animation-duration: 0.5s;
+		-o-animation-duration: 0.5s;
+		-webkit-animation-duration: 0.5s;
+	animation-fill-mode: backwards;
+		-moz-animation-fill-mode: backwards;
+		-o-animation-fill-mode: backwards;
+		-webkit-animation-fill-mode: backwards;
+	animation-delay: 0.05s;
+		-moz-animation-delay: 0.05s;
+		-o-animation-delay: 0.05s;
+		-webkit-animation-delay: 0.05s;
+}
+.interface-box button:nth-child(5),.interface-box a:link button {
+	animation-delay: 0.05s;
+		-moz-animation-delay: 0.05s;
+		-o-animation-delay: 0.05s;
+		-webkit-animation-delay: 0.05s;
+}
+.interface-box button:nth-child(4) {
+	animation-delay: 0.15s;
+		-moz-animation-delay: 0.15s;
+		-o-animation-delay: 0.15s;
+		-webkit-animation-delay: 0.15s;
+}
+.interface-box button:nth-child(3) {
+	animation-delay: 0.2s;
+		-moz-animation-delay: 0.2s;
+		-o-animation-delay: 0.2s;
+		-webkit-animation-delay: 0.2s;
+}
+.interface-box button:nth-child(2) {
+	animation-delay: 0.25s;
+		-moz-animation-delay: 0.25s;
+		-o-animation-delay: 0.25s;
+		-webkit-animation-delay: 0.25s;
+}
+.interface-box button:nth-child(1) {
+	animation-delay: 0.3s;
+		-moz-animation-delay: 0.3s;
+		-o-animation-delay: 0.3s;
+		-webkit-animation-delay: 0.3s;
+}
